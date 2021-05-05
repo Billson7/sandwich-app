@@ -66,7 +66,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView(store: testStore)
-            ContentView(store: testStore)
                 .environment(\.sizeCategory, .extraExtraLarge)
             ContentView(store: testStore)
                 .preferredColorScheme(.dark)
