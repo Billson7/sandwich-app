@@ -31,13 +31,13 @@ struct ContentView: View {
                 #if os(iOS)
                 ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
                     EditButton()
-                        }
+                }
                 #endif
                 ToolbarItem(placement: ToolbarItemPlacement.navigationBarLeading) {
-                                Button("Add", action: makeSandwich)
-                        }
+                    Button("Add", action: makeSandwich)
+                }
             }
-          
+            
             Text("Select a Sandwich")
                 .font(.largeTitle)
         }
